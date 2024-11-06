@@ -34,14 +34,16 @@ public class J21ServiceImplementation {
         var codePoint = Character.codePointAt("😃", 0);
         var isEmoji = Character.isEmoji(codePoint);
         System.out.println("😃 is an emoji: " + isEmoji);  //true
+
     }
+
 
     public void _Exception(){
         String s = "....";
         try {
-            int i = Integer.parseInt(s);
+            var i = Integer.parseInt(s);
         } catch (NumberFormatException _) {
             System.out.println("No es un número: " + s);
-        }  //true
+        }
     }
 }

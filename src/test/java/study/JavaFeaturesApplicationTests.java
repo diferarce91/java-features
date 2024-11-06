@@ -81,6 +81,7 @@ class JavaFeaturesApplicationTests {
 		j21i.listMethods();
 		j21i.switchRecordDestructor(new UserRecord("Diego", "Arenas", "3053907634"));
 		j21i.emojis();
+		j21i._Exception();
 	}
 
 }
